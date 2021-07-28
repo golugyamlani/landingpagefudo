@@ -325,13 +325,12 @@ class _LandingPageState extends State<LandingPage> {
                                   ),
                                 ),
                                 // width: 70,
-                                height: 24,
+                                height: 28,
                                 decoration: BoxDecoration(
                                   gradient: LinearGradient(
                                     colors: [
-                                      Color(0xFF8743FF), Color(0xFF4136F1)
-                                      // 8743FF
-                                      // 4136F1
+                                      Color(0xFF8743FF),
+                                      Color(0xFF4136F1)
                                     ],
                                   ),
                                   borderRadius:
@@ -406,6 +405,7 @@ class _LandingPageState extends State<LandingPage> {
                               ),
                               Container(
                                 width: 115,
+                                height: 52,
                                 padding: EdgeInsets.fromLTRB(3, 4, 0, 0),
                                 child: Column(
                                   mainAxisAlignment:
@@ -428,7 +428,7 @@ class _LandingPageState extends State<LandingPage> {
                                             left: 10,
                                             top: 7,
                                             right: 9,
-                                            bottom: 2,
+                                            bottom: 3,
                                           ),
                                           decoration: BoxDecoration(
                                               color: Colors.white,
@@ -460,7 +460,6 @@ class _LandingPageState extends State<LandingPage> {
                                     ),
                                   ],
                                 ),
-                                height: 50,
                                 decoration: BoxDecoration(
                                   gradient: LinearGradient(
                                     colors: [
